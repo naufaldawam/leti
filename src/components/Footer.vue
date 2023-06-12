@@ -5,17 +5,16 @@
         <div>
           <h4 class="text-lg font-bold mb-4">Tentang Kami</h4>
           <ul>
-            <li><a href="#">Tentang Workhu</a></li>
+            <li><a href="#">Tentang Lab Eps Topik Indonesia</a></li>
             <li><a href="#">Tim Kami</a></li>
-            <li><a href="#">Karir</a></li>
             <li><a href="#">Kontak</a></li>
           </ul>
         </div>
         <div>
           <h4 class="text-lg font-bold mb-4">Layanan</h4>
           <ul>
-            <li><a href="#">Lowongan Pekerjaan</a></li>
-            <li><a href="#">Cari Pekerjaan</a></li>
+            <li><a href="#">Eps Topik</a></li>
+            <li><a href="#">Webinar</a></li>
             <li><a href="#">Perusahaan</a></li>
           </ul>
         </div>

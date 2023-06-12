@@ -1,10 +1,10 @@
 <template>
-  <section class="relative pt-20 lg:pt-28 mt-5 sm:mt-6 lg:mt-10">
-    <div class="container mx-auto px-4">
-      <div class="flex flex-col lg:flex-row items-center justify-between">
+  <section class="relative">
+    <div class="container">
+      <div class="">
         <div class="w-full lg:w-1/2">
           <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">Selamat Datang di leti</h2>
-          <p class="text-lg text-gray-700 leading-relaxed mb-8">Temukan pekerjaan impian Anda dan jadilah bagian dari komunitas profesional yang berkembang di Workhu.</p>
+          <p class="text-lg text-gray-700 leading-relaxed mb-8">Wujudkan impian Anda di korea mengenal budaya korea.</p>
           <a href="#" class="bg-blue-500 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-600 transition duration-200">Mulai Sekarang</a>
         </div>
         <div class="w-full lg:w-1/2 mt-8 lg:mt-0">
@@ -29,50 +29,30 @@ export default {
 
 
 img{
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 50%;
+  max-height: 50%;
 }
-.relative {
+
+.relative{
   position: relative;
-}
-
-.pt-20 {
   padding-top: 5rem;
-}
-
-.lg\:pt-28 {
   padding-top: 7rem;
-}
-
-.mt-5 {
   margin-top: 1.25rem;
-}
-
-.sm\:mt-6 {
   margin-top: 1.5rem;
-}
-
-.lg\:mt-10 {
   margin-top: 2.5rem;
+
 }
 
 .container {
   width: 100%;
-  padding-right: 2rem;
   padding-left: 2rem;
+  padding-right: 2rem;
   margin-right: auto;
   margin-left: auto;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
+
 
 .text-4xl {
   font-size: 2.25rem;
@@ -146,6 +126,10 @@ img{
 @media (max-width: 1024px) {
   .lg\:w-1\/2 {
     width: 100%;
+  }
+  img {
+   max-width: 100%;
+   max-height: 100%;
   }
 }
 </style>
